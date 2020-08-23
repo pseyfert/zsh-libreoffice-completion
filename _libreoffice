@@ -1,0 +1,12 @@
+#compdef libreoffice
+
+_arguments \
+   "--writer[Creates an empty Writer document]" \
+   "--calc[Creates an empty Calc document]" \
+   "--draw[Creates an empty Draw document]" \
+   "--impress[Creates an empty Impress document]" \
+   "--base[Creates a new database]" \
+   "--global[Creates an empty Writer master (global) document]" \
+   "--math[Creates an empty Math document (formula)]" \
+   "--web[Creates an empty HTML document]" \
+   "*:FILE: _files"
